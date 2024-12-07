@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+.main-container {
+  background-color: #f5f5f5; /* Light gray background */
+  padding: 30px;
+  margin: 30px auto;
+  max-width: 800px;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+/* Individual testimonial styling */
+.testimonial {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Slight shadow */
+}
+
+/* Testimonial text styling */
+.text {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #333;
+  margin: 0;
+}
+
+/* Author styling */
+.author {
+  text-align: right;
+  font-style: italic;
+  color: #555;
+  margin-top: 10px;
+}
